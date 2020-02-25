@@ -2,7 +2,7 @@ const weight = 60;
 const height = 1.65;
 let result;
 
-BMI = weight/(height**2)
+const BMI = weight/(height**2)
 
 if (BMI < 18.5){
     result = 'underweight'
