@@ -1,4 +1,4 @@
-const weigth = 82;
+const weigth = 60;
 const height = 1.65;
 let result;
 
