@@ -2,7 +2,7 @@ const weigth = 60;
 const height = 1.65;
 let result;
 
-bmi = weigth / (height**2);
+var bmi = weigth / (height**2);
 
 switch(bmi > 0){
     case (bmi < 18.5):
