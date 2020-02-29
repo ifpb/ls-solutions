@@ -1,5 +1,5 @@
-let altura = parseFloat(prompt("Digite sua altura: "));
-let peso = parseFloat(prompt("Digite seu peso: "));
+let altura = 1.50;
+let peso = 60;
 
 let bmiCalc = peso/altura ** 2;
 
