@@ -1,7 +1,7 @@
 // Alecsander Camilo - 20192370010
 
 function soma(x, y) {
-    return x + y
+    return (x + y);
 }
 
 console.log(soma(1, 2))
