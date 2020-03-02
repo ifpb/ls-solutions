@@ -1,4 +1,4 @@
-// Alecsander Camilo de Sousa Lima - 20192370010
+// Alecsander Camilo - 20192370010
 
 const weight = 60;
 const height = 1.65;
