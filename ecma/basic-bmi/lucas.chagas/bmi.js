@@ -12,3 +12,4 @@ else if (bmi <29.9)
     result = 'Overweight' 
 else
     result ='Obesity'
+console.log (result);
