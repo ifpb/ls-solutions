@@ -1,1 +1,2 @@
-console.log('ola!')
+var saudacao = 'hello word'
+console.log(saudacao)
