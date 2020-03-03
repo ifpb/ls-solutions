@@ -15,8 +15,8 @@ function fibonnaciSequence(x) {
     }
 }
 
-console.log(fibonnaciSequence(0))
-console.log(fibonnaciSequence(1))
-console.log(fibonnaciSequence(2))
-console.log(fibonnaciSequence(4))
-console.log(fibonnaciSequence(6))
+console.log(fibonnaciSequence(0));
+console.log(fibonnaciSequence(1));
+console.log(fibonnaciSequence(2));
+console.log(fibonnaciSequence(4));
+console.log(fibonnaciSequence(6));
