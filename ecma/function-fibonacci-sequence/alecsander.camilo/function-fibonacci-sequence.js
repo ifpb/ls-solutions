@@ -1,6 +1,6 @@
 // Alecsander Camilo - 20192370010
 
-let fib = [0, 1]
+let fib = [0, 1];
 
 function fibonnaciSequence(x) {
     if (x === 0) {

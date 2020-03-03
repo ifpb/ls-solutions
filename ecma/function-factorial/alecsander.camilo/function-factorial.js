@@ -6,11 +6,11 @@ function factorial(x) {
     if ((x === 1) || (x === 0)) {
         return resultado;
     } else {
-        for (let number = x; number > 1; number--) {
+        for (let number = x; number >= x; number--) {
             resultado *= number;
     }
-        return resultado;
-  }
+            return resultado;
+    }
 }
 
 console.log(factorial(1))
