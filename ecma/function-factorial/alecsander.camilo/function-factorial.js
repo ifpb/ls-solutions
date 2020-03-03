@@ -1,9 +1,8 @@
 // Alecsander Camilo - 20192370010
 
-function factorial(x) {
-    
-    let resultado = 1;
+let resultado = 1;
 
+function factorial(x) {
     if ((x === 1) || (x === 0)) {
         return resultado;
     } else {
