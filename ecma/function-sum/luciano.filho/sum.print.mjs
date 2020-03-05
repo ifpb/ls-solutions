@@ -1,4 +1,6 @@
-sum = require('./sum.js')
+//sum = require('./sum.js')
+
+import { sum } from "./sum.mjs"
 
 // Number Tools
 
