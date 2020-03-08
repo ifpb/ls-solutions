@@ -1,4 +1,4 @@
-fibonacci = require("./fibonacci.js");
+import { fibonacci } from "./fibonacci.mjs"
 
 console.log(fibonacci(0));
 

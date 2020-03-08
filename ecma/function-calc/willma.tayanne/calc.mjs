@@ -1,4 +1,4 @@
-module.exports = function calcWithEval (operand1, operand2, operator) {
+function calc (operand1, operand2, operator) {
 
     switch (operator) {
 
@@ -18,3 +18,4 @@ module.exports = function calcWithEval (operand1, operand2, operator) {
 
 }
 
+export { calc }

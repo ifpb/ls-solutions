@@ -1,4 +1,4 @@
-fatorial = require('./fatorial.js');
+import { fatorial } from './fatorial.mjs';
 
 console.log(fatorial(1));
 
