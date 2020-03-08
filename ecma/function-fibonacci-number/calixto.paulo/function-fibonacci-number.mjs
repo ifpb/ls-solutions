@@ -9,4 +9,4 @@ function fibonum(valor){
     }
     return f
 }
-console.log(fibonum(6))
+export{fibonum}
