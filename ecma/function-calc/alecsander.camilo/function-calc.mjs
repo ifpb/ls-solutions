@@ -12,7 +12,4 @@ function calculadora(x, y, z) {
     }
 }
 
-console.log(calculadora(1, 1, '+'))
-console.log(calculadora(1, 1, '-'))
-console.log(calculadora(1, 1, '*'))
-console.log(calculadora(1, 1, '/'))
+export { calculadora };

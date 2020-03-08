@@ -1,6 +1,6 @@
 // Alecsander Camilo - 20192370010
 
-import { isPrime } from '../function-prime/alecsander.camilo/function-prime.mjs';
+import { isPrime } from "../function-prime/alecsander.camilo/function-prime.mjs";
 
 function nthPrime(n) {
     let counter = 0;
@@ -14,5 +14,4 @@ function nthPrime(n) {
    }
 }
 
-console.log(nthPrime(4))
-console.log(nthPrime(6))
+export { nthPrime }
