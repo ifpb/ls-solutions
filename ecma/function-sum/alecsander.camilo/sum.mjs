@@ -4,4 +4,4 @@ function soma(x, y) {
     return (x + y);
 }
 
-export { soma }
+export { soma };
