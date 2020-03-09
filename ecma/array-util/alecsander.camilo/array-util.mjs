@@ -9,7 +9,7 @@ function min(array) {
 }
     
 function max(array) {
-    let maximum = array[0];
+    let maximum = array.shift();
     for (let value of array) {
         if (value > maximum) {
             maximum = value;
@@ -37,7 +37,7 @@ function zip(...arrays) {
 function uniq(array) {
     let resultado = [ ];
     for (let value of array) {
-        if (!resultado.includes(value)) {
+        if (resultado.includes(value) == false) {
             resultado.push(value)
         }
     }
