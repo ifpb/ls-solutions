@@ -1,5 +1,5 @@
 function min(array) {
-  let minimum = array[0];
+  let minimum = array[0]; //array.shift()
   for (const value of array){
     if (value < minimum) {minimum = value;}
   }
