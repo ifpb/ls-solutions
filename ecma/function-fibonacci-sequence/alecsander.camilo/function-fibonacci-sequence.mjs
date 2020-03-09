@@ -2,7 +2,7 @@
 
 let fib = [0, 1];
 
-function fibonnaciSequence(x) {
+function fibonacciSequence(x) {
     if (x === 0) {
         return '';
     } else if (x === 1) {
@@ -15,8 +15,4 @@ function fibonnaciSequence(x) {
     }
 }
 
-console.log(fibonnaciSequence(0));
-console.log(fibonnaciSequence(1));
-console.log(fibonnaciSequence(2));
-console.log(fibonnaciSequence(4));
-console.log(fibonnaciSequence(6));
+export { fibonacciSequence };
