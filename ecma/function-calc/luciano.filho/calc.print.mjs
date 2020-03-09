@@ -1,4 +1,6 @@
-calc = require("./calc.js");
+//calc = require("./calc.js");
+
+import { calc } from "./calc.mjs";
 
 // Calculator
 
