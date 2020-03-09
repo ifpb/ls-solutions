@@ -3,12 +3,14 @@ import { min, max, range, zip, uniq, sortNum } from "./array-util.js";
 // Array Util
 
 // finding lowest value in [1, 4, 2, 6, 10, 3]
+
 console.log(min([1, 4, 2, 6, 10, 3]));
 console.log(1);
 
 // finding lowest value in [1, 4, -1, 6, 10, 3]
 console.log(min([1, 4, -1, 6, 10, 3]));
 console.log(-1);
+
 
 // finding greatest value in [1, 4, 2, 6, 10, 3]
 console.log(max([1, 4, 2, 6, 10, 3]));

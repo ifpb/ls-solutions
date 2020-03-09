@@ -1,5 +1,5 @@
 function min(array) {
-  let min = array[0];
+  let min = array.shift();
   for (let value of array) {
     if (value < min){
       min = value;
@@ -9,7 +9,7 @@ function min(array) {
 }
 
 function max(array) {
-  let max = array[0];
+  let max = array.shift();
   for (let value of array){
     if (value > max){
       max = value;
