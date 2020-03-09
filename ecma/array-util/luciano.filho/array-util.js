@@ -7,6 +7,7 @@ function max(array) {
 }
 
 function range(length, last, step) {
+  
   // TODO
 }
 
