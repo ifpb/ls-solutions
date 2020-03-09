@@ -10,8 +10,4 @@ function fibonnaciNumber(x) {
     }
 }
 
-console.log(fibonnaciNumber(0))
-console.log(fibonnaciNumber(1))
-console.log(fibonnaciNumber(2))
-console.log(fibonnaciNumber(4))
-console.log(fibonnaciNumber(6))
+export { fibonnaciNumber };
