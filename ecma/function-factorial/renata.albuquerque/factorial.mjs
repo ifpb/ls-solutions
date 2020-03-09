@@ -10,4 +10,4 @@ function fatorial (n){
     }
 }
 
-console.log(fatorial(4))
+export {fatorial}

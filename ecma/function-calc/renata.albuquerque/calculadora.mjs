@@ -10,7 +10,6 @@ function calc(n1,n2,op){
     }
 }
 
-console.log(calc(8,5,'+'));
-console.log(calc(8,5,'-'));
-console.log(calc(8,5,'*'));
-console.log(calc(8,5,'/'));
+export {calc}
+
+
