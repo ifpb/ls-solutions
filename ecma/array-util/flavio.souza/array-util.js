@@ -17,7 +17,6 @@ function max(array) {
   }
   return maximun
 }
-}
 
 function range(length, last, step) {
   // TODO
