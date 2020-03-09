@@ -5,4 +5,4 @@ function factorial(valor){
     }
     return acumula;
 }
-console.log(factorial(1))
+export{factorial}

@@ -13,4 +13,4 @@ function calc(op,numero1,numero){
         return numero1/numero
     }
 }
-console.log(calc('+',1,1))
+export{calc}
