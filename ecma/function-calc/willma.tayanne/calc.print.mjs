@@ -1,4 +1,4 @@
-calc = require ('./calc.js');
+import { calc } from './calc.mjs';
 
 /* Adição 1 + 1 */
 console.log("adding");
