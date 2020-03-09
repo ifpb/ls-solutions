@@ -1,4 +1,4 @@
-import { min, max, range, zip, uniq, sortNum } from "./array-util.mjs";
+import { min, max, range, zip, uniq, sortNum } from "./array-util.js";
 
 console.log(min([1, 4, 2, 6, 10, 3]));
 
