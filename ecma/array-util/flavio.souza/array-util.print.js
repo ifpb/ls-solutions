@@ -1,4 +1,4 @@
-import { min, max, range, zip, uniq, sortNum } from "./array-util.js";
+import { min, max, range, zip, uniq, sortNum } from "./array-util.js/index.js";
 
 // Array Util
 
