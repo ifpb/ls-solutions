@@ -5,15 +5,15 @@ describe('Array Util', () => {
     expect(min([1, 4, 2, 6, 10, 3])).toBe(1);
   });
 
-  test.skip('finding lowest value in [1, 4, -1, 6, 10, 3]', () => {
+  test('finding lowest value in [1, 4, -1, 6, 10, 3]', () => {
     expect(min([1, 4, -1, 6, 10, 3])).toBe(-1);
   });
 
-  test.skip('finding greatest value in [1, 4, 2, 6, 10, 3]', () => {
+  test('finding greatest value in [1, 4, 2, 6, 10, 3]', () => {
     expect(max([1, 4, 2, 6, 10, 3])).toBe(10);
   });
 
-  test.skip('generating range of numbers from 0 to 10', () => {
+  test('generating range of numbers from 0 to 10', () => {
     expect(range(10)).toEqual([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
   });
 
