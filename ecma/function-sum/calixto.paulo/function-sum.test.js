@@ -1,4 +1,4 @@
-import { sum } from './sum.js'
+import { sum } from './function-sum.js'
 
 describe('Number Tools', () => {
 
