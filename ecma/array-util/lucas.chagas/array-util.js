@@ -1,13 +1,13 @@
 function min(array) {
-  let minimum = array[0];
+  let minimum = array[0]; //array.shift()
   for (const value of array){
-    if (value < minimum) minimum = value;
+    if (value < minimum) {minimum = value;}
   }
   return minimum;
 }
   
   function max(array) {
-    // TODO
+    return Math.max(...array);
   }
   
   function range(length, last, step) {
