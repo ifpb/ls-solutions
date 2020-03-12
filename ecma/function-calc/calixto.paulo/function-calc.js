@@ -1,4 +1,4 @@
-function calc(op,numero1,numero){
+function calc(numero1,numero, op){
     switch(true){
         case(op == '+'):
         return numero1+numero;
