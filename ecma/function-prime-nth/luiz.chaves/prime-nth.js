@@ -1,4 +1,4 @@
-import { isPrime } from '../../prime/response/prime.js';
+import { isPrime } from "../../function-prime/luiz.chaves/prime.js";
 
 /**
  * begin: 1..n
