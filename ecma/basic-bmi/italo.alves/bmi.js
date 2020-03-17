@@ -1,7 +1,8 @@
-const weight = 60, height = 1.65;
+const weight = 60;
+const height = 1.65;
 let result;
 
-const bmi = weight/height**2;
+const bmi = weight / height ** 2;
 
 if (bmi < 18.5) {
   result = "Underweight";
