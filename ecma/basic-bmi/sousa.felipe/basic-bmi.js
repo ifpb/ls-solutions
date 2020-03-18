@@ -1,4 +1,5 @@
-const weight = 200; height = 1.5
+const weight = 200
+const height = 1.5
 const BMI = weight / (height ** 2)
 let result;
 
