@@ -1,4 +1,4 @@
-import { factorial } from "./function-factorial.mjs";
+import { factorial } from "./factorial.mjs";
 
 console.log(factorial(1));
 console.log(factorial(2));
