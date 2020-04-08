@@ -6,11 +6,7 @@ console.log(min([1, 4, -1, 6, 10, 3]));
 
 // finding greatest value
 console.log(max([1, 4, 2, 6, 10, 3]));
-console.log(max([1, 4, 28, 6, 190, 3]));
-console.log(max([1, 40, 2, 6, 10, 3]));
-console.log(max([1, 4, 20, 6, 10, 3]));
-console.log(max([100, 4, 20, 6, 10, 3]));
-console.log(max([1, 4, 2, 69, 10, 30]));
+console.log(max([1, 4, 28, 6, 19, 3]));
 
 
 /* 
