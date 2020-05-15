@@ -4,6 +4,13 @@ function snakeCase(texto){
     return textoSnake;
 }
 
+function inverteTexto(texto){
+    let array = texto.split('');
+    let arrayInvertido = array.reverse();
+    let textoInvertido = arrayInvertido.join('');
+    return textoInvertido;
+}
+
 
 function formatter(text, action){
     switch(action){
@@ -13,9 +20,10 @@ function formatter(text, action){
             return text.toLowerCase();
         case 'snakecase':
         	return snakeCase(text);
-
+        case 'reverse':
+            return inverteTexto(text);        	
     }
 }
 
 
-export { formatter, snakeCase };
+export { formatter, snakeCase, inverteTexto };
