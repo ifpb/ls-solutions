@@ -1,6 +1,0 @@
-{
-    "type": "module",
-    "devDependencies": {
-        "jest": "^25.1.0"
-    }
-}
