@@ -1,4 +1,6 @@
-factorial = require("./factorial.js");
+//factorial = require("./factorial.js");
+
+import { factorial } from "./factorial.mjs";
 
 console.log(factorial(1));
 console.log(1);
