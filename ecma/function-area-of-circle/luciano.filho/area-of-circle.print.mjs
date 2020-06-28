@@ -1,4 +1,7 @@
-areaOfCircle = require('./area-of-circle.js')
+//areaOfCircle = require('./area-of-circle.js')
+
+import { areaOfCircle } from "./area-of-circle.mjs";
+
 // Circle Tools
 
 // Area of the circle of radius 10 is of 31.41592653589793
